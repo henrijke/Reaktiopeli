@@ -1,0 +1,53 @@
+#gameHost{
+    background-color: indianred;
+    border-radius: 25px;
+    text-align: center;
+    padding: 50px;
+    max-width: 850px;
+}
+#lightHost{
+    padding-top: 25px;
+    display: flex;
+}
+.gameButton{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    border-style: outset;
+
+}
+.gameButton:hover{
+    cursor: pointer;
+}
+.buttonText{
+    font-size: 150%;
+    font-family: Futura, Arial, serif;
+    color: white;
+    padding-top: 25%;
+}
+
+#scoreHost{
+    margin-left:25%;
+    padding: 15px;
+    background-color: black;
+    border-radius: 20px;
+    color: lawngreen;
+    width: 50%;
+    border-style: outset;
+    font-family:OCR A Std, Arial, serif;
+}
+
+#startButton{
+    border-style: none;
+    padding: 10px;
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: white;
+    font-family: Futura, Arial, serif;
+    font-size: 150%;
+}
